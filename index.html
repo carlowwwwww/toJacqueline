@@ -7,20 +7,37 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
+		background: linear-gradient(to bottom, #FFC0CB, #FFFFFF); /* Pink to White Gradient */
         }
 
         p {
             text-align: center;
             font-size: 50px;
         }
+
+	  img {
+ 		justify-content: center;
+            width: 30%; 
+            height: auto;
+        }
+	  
+	  .centered-image {
+            width: 21%; /* Adjust the percentage as needed */
+            height: auto; /* Maintain the aspect ratio */
+            margin: 0 auto; /* Center the image horizontally */
+		padding-bottom: 5%
+	   }
+
     </style>
 </head>
 <body>
-    <p>I LOVE YOU JACQUELINE <br> <3</p>
-    <img src="382150594_6876168575780008_3631417418204996867_n.jpg">
+    <br><br><br>
+    <p>I LOVE YOU JACQUELINE <br> <3</p><br>
+    <img src="me_N_u.jpg" class='centered-image'>
 </body>
 </html>
